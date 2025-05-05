@@ -1,0 +1,68 @@
+.unefa-primary-bg {
+    background-color: #002147;
+}
+
+.unefa-secondary-bg {
+    background-color: #C8102E;
+}
+
+.unefa-accent-text {
+    color: #FFC72C;
+}
+
+.hero-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 2rem 0;
+    border-bottom: 4px solid #C8102E;
+}
+
+.btn-unefa {
+    background-color: #C8102E;
+    color: white;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-unefa:hover {
+    background-color: #A00D26;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-outline-unefa {
+    border: 2px solid white;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-unefa:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: translateY(-2px);
+}
+
+.feature-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 1.5rem;
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.feature-icon {
+    color: #FFC72C;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 992px) {
+    .right-section {
+        margin-top: 3rem;
+    }
+}
